@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const token = process.env.BOT_TOKEN ;
 const mybot = new Discord.Client();
 const prefix = "!!";
 //var roles = message.channel.server.roles;
